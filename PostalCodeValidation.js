@@ -14,3 +14,7 @@ console.log(postalcheck2);
 let postalRegex4 =RegExp('^[0-9]{3}[ ]?[0-9]{3}$');
 let postalcheck3 =postalRegex4.test("023 434");
 console.log(postalcheck3);
+
+let emailRegex = RegExp('^[A-Za-z]{3,}[.]?[A-Za-z]{3,}[@]{1}[A-Za-z]*[.]{1}[a-zA-Z]*$');
+let emailCheck = emailRegex.test("abc.bcs@bridgelabz.com");
+console.log(emailCheck);
